@@ -84,32 +84,4 @@
 		compatible = "generic-uio";
         reg = <0x0 0x26000000 0x0 0x1000000>;
 	};
-    
-	cam_axi_1: cam_axi@a0030000 {
-		/* This is a place holder node for a custom IP, user may need to update the entries */
-		clock-names = "s00_axi_aclk";
-		clocks = <&zynqmp_clk 71>;
-		compatible = "xlnx,cam-axi-1.0";
-		reg = <0x0 0xa0030000 0x0 0x10000>;
-		xlnx,s00-axi-addr-width = <0x4>;
-		xlnx,s00-axi-data-width = <0x20>;
-	};
-	cam_axi_2: cam_axi@a0040000 {
-		/* This is a place holder node for a custom IP, user may need to update the entries */
-		clock-names = "s00_axi_aclk";
-		clocks = <&zynqmp_clk 71>;
-		compatible = "xlnx,cam-axi-1.0";
-		reg = <0x0 0xa0040000 0x0 0x10000>;
-		xlnx,s00-axi-addr-width = <0x4>;
-		xlnx,s00-axi-data-width = <0x20>;
-	};
-	read_trigger_0: read_trigger@a0050000 {
-		/* This is a place holder node for a custom IP, user may need to update the entries */
-		clock-names = "s00_axi_aclk";
-		clocks = <&zynqmp_clk 71>;
-		compatible = "xlnx,read-trigger-1.0";
-		reg = <0x0 0xa0050000 0x0 0x10000>;
-		xlnx,s00-axi-addr-width = <0x4>;
-		xlnx,s00-axi-data-width = <0x20>;
-	};
 };
