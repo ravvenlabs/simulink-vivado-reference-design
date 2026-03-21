@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "design_1_auto_ds_0",
-    "cell_name": "ps7_0_axi_periph/m01_couplers/auto_ds",
+    "cell_name": "ps7_0_axi_periph/m03_couplers/auto_ds",
     "component_reference": "xilinx.com:ip:axi_dwidth_converter:2.1",
     "ip_revision": "31",
     "gen_directory": "../../../../../../simulink.gen/sources_1/bd/src/ip/design_1_auto_ds_0",
